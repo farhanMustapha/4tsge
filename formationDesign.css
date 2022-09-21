@@ -1,0 +1,15 @@
+.contenu{
+    display: flex;
+    margin: 30px;
+    
+
+}
+
+.doc-part{
+    margin: 30px;
+}
+
+.pdf-show{
+    width:250%;
+     height:550px;
+}

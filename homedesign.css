@@ -1,0 +1,76 @@
+.contenu{
+    background-color: rgb(14, 12, 12);
+    display: flex;  
+}
+
+
+.left-part{
+    
+    background-color: red;
+    height: 600px;
+    width: 200px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: rgb(228, 157, 157);
+    width: 150px;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 40px;
+
+}
+
+.right-part{
+    background-color: green;
+    display: flexbox;
+    width: 1300px;
+    padding: 10px;
+}
+
+.top-part{
+    background-color: aqua;
+    height: 220px;
+    padding: 10px;
+    margin: 10px;
+    font-style: oblique;
+    font-size: large;
+}
+
+.bottom-part{
+    display: flex;
+    margin: 10px;
+    
+}
+
+.bottom-part-left{
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    font-style: oblique;
+    font-size: large;
+}
+
+.bottom-part-right{
+    background-color: rgb(30, 255, 0);
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    font-style: oblique;
+    font-size: large;
+}
+
+.contact{
+    background-color: darkgoldenrod;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    font-style: oblique;
+    font-size: large;
+}

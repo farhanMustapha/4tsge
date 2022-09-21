@@ -14,8 +14,9 @@
         <div class="nav-menu">
             <ul class="nav-items">
                 <li><a class="nav-link" href="#">Home</a></li>
-                <li><a class="nav-link" href="#">About us</a></li>
-                <li><a class="nav-link" href="#">contact us</a></li>
+                <li><a class="nav-link" href="#">Login</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+                <li><a class="nav-link" href="#">Reclamation</a></li>
             </ul>
         </div>  
     </div>
@@ -23,12 +24,63 @@
     <!-----------------component 1------------------------->
 
     <div class="box">
-         <img class="lesson-img" src="./images/1.jpg" alt="cours du bilan">
+        <p>Question N° :</p>
+         <p id="qest" class="question">15/10/2022 : achat de marchandise pour un montant TTC de 6000.00 dirhams </p>
+        
+         
+         <select name="journal" class="select-journal">
+            <option value="Achat">choisir un journal</option>
+           <option value="Achat">Les achats</option>
+           <option value="Ventes">Les ventes</option>
+           <option value="Caisse">La caisse</option>
+           <option value="Banques">La banque</option>
+         </select>
+
+         <table class="journal">
+             <tr>
+                 <th id="th-date">date</th>
+                 <th id="th-cpt">compte</th>
+                 <th class="th-desc">description</th>
+                 <th class="th-d">débit</th>
+                 <th class="th-c">credit</th>
+             </tr>
+             <tr>
+                <td><input id="date-op" type="date" placeholder="date"></td>
+                <td><input id="cpt-inp" type="text" placeholder="compte fournisseur"></td>
+                <td><input id="desc-input" type="text" placeholder="description"></td>
+                <td><input id="d-input" type="text" ></td>
+                <td><input id="c-input" type="text" ></td>
+             </tr>
+             
+                <tr>
+                    <td><input id="date-op" type="date" placeholder="date"></td>
+                    <td><input id="cpt-inp" type="text" placeholder="compte charge"></td>
+                    <td><input id="desc-input" type="text" placeholder="description"></td>
+                    <td><input id="d-input" type="text"></td>
+                    <td><input id="c-input" type="text"></td>
+                 </tr>
+
+                 <tr>
+                    <td><input id="date-op" type="date" placeholder="date"></td>
+                    <td><input id="cpt-inp" type="text" placeholder="compte TVA"></td>
+                    <td><input id="desc-input" type="text" placeholder="description"></td>
+                    <td><input id="d-input" type="text"></td>
+                    <td><input id="c-input" type="text"></td>
+                 </tr>
+             
+         </table>
+         <div class="control">
+             <p class="total">Total débit :</p>
+             <p class="total">Total crédit :</p>
+             <p class="total">Ecart :</p>
+         </div>
+         <button onclick="valider()" class="btn-valider">valider</button>
+         <p class="message">congratulation good job </p>
     </div>
 
     <div class="btn">
         <button id="btn-back" class="btn-c1">back</button>
-        <button id="btn-next"  class="btn-c1">Next</button>
+        <button onclick="nextQuestion()" id="btn-next"  class="btn-c1">Next</button>
    </div>
 
     <script src="index.js"></script>

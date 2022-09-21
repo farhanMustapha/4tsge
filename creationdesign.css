@@ -1,0 +1,28 @@
+
+h1{
+    margin: 10px;
+    padding: 10px;
+}
+.paragraphe{
+    
+    width: 95%;
+    margin-left: 5%;
+    font-size: 20px;
+    text-decoration: solid;
+    padding: 10px;
+    margin: 2px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    width: 60%;
+    text-align: left;
+    border-radius: 8px;
+    margin:0 auto;
+}
+
+.box{
+    padding-top: 120px;
+    
+}
+
