@@ -7,20 +7,21 @@
     <title>4 Tsge</title>
     <link rel="stylesheet" href="design.css">
 </head>
-<body>
+<body onload="readFile();">
     <!-----------------nav bar component--------------------->
     <div class="nav-bar">
         <div class="logo">4TSGE</div>
         <div class="nav-menu">
             <ul class="nav-items">
                 <li><a class="nav-link" href="admin.html">Home</a></li>
-                <li><a class="nav-link" href="pro finale/login.html">Login</a></li>
-                <li><a class="nav-link" href="/creation.html">Contact</a></li>
+                <li><a class="nav-link" href="login.html">Login</a></li>
+                <li><a class="nav-link" href="juridique/creation.html">Contact</a></li>
                 <li><a class="nav-link" href="#">Reclamation</a></li>
             </ul>
         </div>  
     </div>
 
+<section class="sect1">
     <!-----------side bare menu left------------------------>
     <div class="box-menu">
         <button>serie theorique </button>
@@ -88,10 +89,13 @@
          <p class="message">congratulation good job </p>
     </div>
 
-    <div class="btn">
-        <button id="btn-back" class="btn-c1">back</button>
-        <button onclick="nextQuestion()" id="btn-next"  class="btn-c1">Next</button>
-   </div>
+    
+</section>
+    
+<div class="btn">
+    <button id="btn-back" class="btn-c1">back</button>
+    <button onclick="nextQuestion()" id="btn-next"  class="btn-c1">Next</button>
+</div>
 
     <script src="index.js"></script>
 </body>

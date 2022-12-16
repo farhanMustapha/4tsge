@@ -36,5 +36,9 @@ function nextQuestion(){
        }
        } 
 
-
+function readFile(){
+    JQuery.get('input.txt',function(txt){
+        $('#output').text(txt)
+    });
+}
 

@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+.sect1 {
+    display: flex;
+}
 /*--------------------nav bar component-----------------------*/
 .nav-bar{
     display: flex;
