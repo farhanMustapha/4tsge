@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login page</title>
 </head>
 <body>
    <h1>login</h1>
    <input id="inp1" type="text" placeholder="xyz@gmail.com"><br><br>
    <input id="inp2" type="text" placeholder="****************">
-   <button>login</button>
+   <button onclick="login()">login</button>
 
    <script>
-    let name=document.getElementById("inp1").value
-    let passwo=document.getElementById("inp2").value
+    let name=document.getElementById('inp2')
+    let passwo=document.getElementById("inp2")
 
-    if(name=="admin" && passwo=="admin"){
-        //element html link pour open page 
+    function login(){
+        if(name.value=="admin" && passwo.value=="admin"){
+       
+       document.write("<button>les conceptes de base</button>"+"<br>")
+       document.write("<button>les operatios courantes</button>"+"<br>")
+       document.write("<button>travaux d'inventaire</button>"+"<br>")
+
+        
+    }else{
+        print("pass or name is wrong !!")
     }
     
-    alert(a)
+    
+    }
+    
    </script>
 </body>
 </html>
